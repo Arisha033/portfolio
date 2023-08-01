@@ -7,6 +7,7 @@
     
     <!-- Link to BootStrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Kanit:wght@900&family=Lato:ital@1&family=Lugrasimo&family=Montserrat:wght@700;800&family=Nunito:ital,wght@1,200&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Sacramento&family=Schibsted+Grotesk:ital,wght@1,500&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Edu+SA+Beginner:wght@700&family=Kanit:wght@900&family=Lato:ital@1&family=Lugrasimo&family=Montserrat:wght@700;800&family=Nunito:ital,wght@1,200&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Sacramento&family=Schibsted+Grotesk:ital,wght@1,500&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
@@ -42,91 +43,196 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="#" class="nav-link active ">Home</a>
+                <a href="#title" class="nav-link active ">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
+                <a href="#about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Portfolio</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Technologies</a>
+                <a href="#technologies" class="nav-link">Technologies</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
+                <a href="#contact-details" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
-    <div class="row">
-        <div class="col-lg-6">
-            <img class="img-girl" src="girl.jpg" alt="girl-image">
+
+      <div class="container">
+        <div class="row my-5 py-5 text-center">
+
+            <div class="col-md-7">
+                <img class="img-girl" src="girl.jpg" alt="girl-image">
+            </div>
+    
+            <div class="col-md-5 mt-5 pl-5 title-heading">
+                <h2 class="big-heading">Hello,I am</h2><br> 
+                <span class="my-name">Arisha</span>
+                <p class="subtitle">Front-End Developer.</p>  
+            </div>
         </div>
-        <div class="col-lg-6 title-heading">
-            <h2 class="big-heading">Hello,I am</h2><br> 
-            <span class="my-name">Arisha.</span>
-            <p class="subtitle">Front-End Dev</p>
-            
-        </div>
-    </div>
+      </div>
+      
     </section>
 
-    <section class="about">
+   
+    <section class="about" id="about">
         <div class= "container">
-            <div class="row">
-                <div class="col-12 text-center mt-5">
+            <div class="row my-5 py-5 text-center">
+                <div class="col-12 mt-5">
                     <h3>About Me</h3>
-                    <p class="mt-4 intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum beatae accusantium quod, officiis quasi optio sit doloremque laboriosam sapiente voluptate ipsum maxime molestiae pariatur? Temporibus obcaecati voluptates enim iure vero! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis doloribus perferendis ipsam earum perspiciatis, quia qui odit necessitatibus quisquam commodi consectetur. Quibusdam, nam amet. Corrupti nemo veritatis possimus maiores quasi?  
+                    <p class="m-5 intro ">Hello! I'm Arisha, a Front-End Web Developer from India. I have been learning Front-End Website Development for several months. I'm a Final Year Btech Student
+                    and a freelancer. I do things that make me feel good and boost my inner self.
+                    <br>
+                    <br>
+                    Click the button below to see my recent projects.
                     </p>
-                    <a href="#my-portfolio" class="btn btn-info btn-lg mt-4 mb-4">See My Work</a>
+                    <a href="#portfolio" id="button" class="btn btn-info btn-lg mt-4 mb-5">See My Work</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="portfolio" id="my-portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mt-5">
+    <section class="portfolio" id="portfolio">
+        <div class="container text-center ">
                     <h3>My Work</h3>
-                    <p class="mt-4">Checkout a few of my works.</p>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <img src="" alt="">
-                        <div class="col-lg-4 col-md-6">
-                            <img src="" alt="">
+                    <p class="mb-5">Checkout a few of my works.</p>
+
+                    <div class="row my-5 py-5">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card mb-5 ">
+                                <div class="card-block">
+                                    <img class="card-img-top" src="tindog.png" alt="tindog-img">
+                                    <h4 class="card-title mt-2">
+                                    tindog
+                                    </h4>
+                                        <p class="card-text">A social website for dogs,similar to tinder.</p>
+                                        <div class="card-footer">
+                                        <a href="https://tindog-01.netlify.app" class="btn btn-lg p-0" target="_blank">Show</a>
+                                        </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <img src="" alt="">
-                        </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card mb-5">
+                                    <div class="card-block">
+                                        <img class="card-img-top" src="passenger-counter.png" alt="passenger-counter-img">  
+                                        <h4 class="card-title mt-2">
+                                            passenger-counter
+                                        </h4>                                  
+                                            <p class="card-text">A passenger counting screen,to count passengers passed by.</p>
+                                            <div class="card-footer">
+                                                <a href="https://passenger-counter-screen.netlify.app/" class="btn btn-lg p-0" target="_blank">Show</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card mb-5">
+                                        <div class="card-block">
+                                            <img class="card-img-top" src="chrome-extension.png" alt="chrome-extension-img"> 
+                                            <h4 class="card-title mt-2">
+                                                chrome-extension
+                                            </h4>                                          
+                                                <p class="card-text">A chrome extension to save tabs for later use.</p>
+                                                <div class="card-footer">
+                                                <a href="https://chrome-lead-tracker.netlify.app/" class="btn btn-lg p-0" target="_blank">Show</a>   
+                                                </div>                                      
+                                        </div>
+                                    </div>
+                                </div>  
+                                
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card mb-5">
+                                        <div class="card-block">
+                                            <img class="card-img-top" src="e-commerce.png" alt="chrome-extension-img"> 
+                                            <h4 class="card-title mt-2">
+                                                e-commerce 
+                                            </h4>                                          
+                                                <p class="card-text">An e-commerce website,similar to flipkart.</p>
+                                                <div class="card-footer">
+                                                <a href="https://e-commerce-02.netlify.app/" class="btn btn-lg p-0 " target="_blank">Show</a> 
+                                                </div>                                        
+                                        </div>
+                                    </div>
+                                </div>  
+                           
                     </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <section class="technologies">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center mt-5">
+    <section class="technologies" id="technologies">
+        <div class="container text-center my-5 py-5">
                     <h3>My Skills</h3>
-                    <p class="mt-4">Here are some of the My Skills.</p>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, doloribus!
+                    <p class="mb-5">Here are some of the My Skills.</p>
+                    <div class="row my-5 py-5">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card mb-5 tech-card" >
+                                <div class="card-block">
+                                    <img class="card-img" src="HTML5_logo.png" alt="HTML-img" style="height: 100px; width: 100px;">
+                                    <h4 class="card-text">
+                                        <div class="card-footer"> 
+                                            HTML 5
+                                        </div>
+                                    </h4>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, cumque.
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card mb-5 tech-card">
+                                <div class="card-block">
+                                    <img class="card-img" src="CSS_logo.png" alt="CSS-img" style="height: 100px; width: 100px;">
+                                    <h4 class="card-text">
+                                        <div class="card-footer">  
+                                            CSS 3
+                                        </div>
+                                    </h4>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card mb-5 tech-card">
+                                <div class="card-block">
+                                    <img class="card-img" src="BootStrap_log.png" alt="BootStrap-img" style="height: 100px; width: 100px;">
+                                    <h4 class="card-text">
+                                        <div class="card-footer">
+                                            BootStrap 4
+                                        </div>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card mb-5 tech-card">
+                                <div class="card-block">
+                                    <img class="card-img" src="JavaScript_logo.png" alt="JavaScript-img" style="height: 100px; width: 100px;">
+                                    <h4 class="card-text">
+                                        <div class="card-footer"> 
+                                            JavaScript 
+                                        </div>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>        
+                        
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
+
     </section>
 
-    <section class="contact-details">
+    <section class="contact-details" id="contact-details">
         <div class="container">
             <div class="row mt-5">
 
@@ -143,7 +249,7 @@
                     <textarea class="form-control px-2 py-2" name="message" id="message" placeholder="Write a Message" cols="30" rows="10"></textarea>
                     </div>
                     <div class="form-group ">
-                    <input type="button" class="btn btn-lg btn-info px-2 py-2 mb-5" value="Send Message">
+                    <input type="button" id="button" class="btn btn-lg px-2 py-2 mb-5" value="Send Message">
                     </div>
                </form>
                </div>
